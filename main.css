@@ -1,0 +1,125 @@
+.aropixel-hero {
+    height: 29rem;
+    position: relative;
+    z-index: -1;
+}
+.aropixel {
+    position: absolute;
+    width: 111.1111111112%;
+    height: 100%;
+    margin-left: -5.5555555556%;
+    -webkit-perspective: 600px;
+    perspective: 600px;
+}
+.aropixel-name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 294px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: #333;
+    letter-spacing: 11px;
+    opacity: 0;
+    -webkit-transition-duration: 2.6s;
+    transition-duration: 2.6s;
+    -webkit-transition-property: -webkit-transform opacity;
+}
+.aropixel-name.fade {
+    opacity: 1;
+}
+.aropixel-point {
+    position: absolute;
+    top: 284px;
+    left: 50%;
+    margin-left: 24px;
+    opacity: 0;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: -webkit-transform opacity;
+}
+.aropixel-point.fade {
+    opacity: 1;
+}
+.aropixel-point svg {
+    height: 14px;
+}
+.aropixel svg {
+    height: 166%;
+    width: 100%;
+    -webkit-transform: translate3d(0, -20.3%, 0);
+    transform: translate3d(0, -20.3%, 0);
+}
+.aropixel--animate .aropixel__path {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) rotate(0) !important;
+    transform: translate3d(0,0,0) rotate(0) !important;
+}
+.aropixel--loading .aropixel__path {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+}
+.aropixel__path {
+    opacity: 0;
+    -webkit-transition-duration: 1.6s;
+    transition-duration: 1.6s;
+    -webkit-transition-property: -webkit-transform opacity;
+    transition-property: -webkit-transform opacity;
+    transition-property: transform opacity;
+    transition-property: transform opacity, -webkit-transform opacity;
+    -webkit-transition-timing-function: cubic-bezier(0.000, 0.700, 0.305, 1.000);
+    transition-timing-function: cubic-bezier(0.000, 0.700, 0.305, 1.000);
+    will-change: transform;
+}
+.aropixel__path:nth-child(1) {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate3d(-802px, 680px, 0) rotate(90deg);
+    transform: translate3d(-802px, 680px, 0) rotate(90deg);
+    -webkit-transform-origin: 738px 862px;
+    transform-origin: 738px 862px;
+}
+.aropixel__path:nth-child(2) {
+    -webkit-transition-delay: 0.16s;
+    transition-delay: 0.16s;
+    -webkit-transform: translate3d(-590px, -533px, 0) rotate(-90deg);
+    transform: translate3d(-590px, -533px, 0) rotate(-90deg);
+    -webkit-transform-origin: 870px 862px;
+    transform-origin: 870px 862px;
+}
+.aropixel__path:nth-child(3) {
+    -webkit-transition-delay: 0.24s;
+    transition-delay: 0.24s;
+    -webkit-transform: translate3d(412px, 660px, 0) rotate(90deg);
+    transform: translate3d(412px, 660px, 0) rotate(90deg);
+    -webkit-transform-origin: 804px 832px;
+    transform-origin: 804px 832px;
+}
+.aropixel__path:nth-child(4) {
+    -webkit-transition-delay: 0.36s;
+    transition-delay: 0.36s;
+    -webkit-transform: translate3d(632px, 620px, 0) rotate(-90deg);
+    transform: translate3d(632px, 620px, 0) rotate(-90deg);
+    -webkit-transform-origin: 725px 1024px;
+    transform-origin: 725px 1024px;
+}
+.aropixel__path:nth-child(5) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    -webkit-transform: translate3d(810px, -605px, 0) rotate(90deg);
+    transform: translate3d(810px, -605px, 0) rotate(90deg);
+    -webkit-transform-origin: 880px 1024px;
+    transform-origin: 880px 1024px;
+}
+.aropixel__path:nth-child(6) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transform: translate3d(972px, 0, 0) rotate(-90deg);
+    transform: translate3d(972px, 0, 0) rotate(-90deg);
+    -webkit-transform-origin: 909px 900px;
+    transform-origin: 909px 900px;
+}
