@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 .aropixel-hero {
     height: 29rem;
     position: relative;
@@ -10,25 +15,6 @@
     margin-left: -5.5555555556%;
     -webkit-perspective: 600px;
     perspective: 600px;
-}
-.aropixel-name {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 294px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 70px;
-    color: #333;
-    letter-spacing: 11px;
-    opacity: 0;
-    -webkit-transition-duration: 2.6s;
-    transition-duration: 2.6s;
-    -webkit-transition-property: -webkit-transform opacity;
-}
-.aropixel-name.fade {
-    opacity: 1;
 }
 .aropixel-point {
     position: absolute;
@@ -46,11 +32,39 @@
 .aropixel-point svg {
     height: 14px;
 }
-.aropixel svg {
+
+
+
+.aropixel svg.company {
+    position: absolute;
     height: 166%;
     width: 100%;
     -webkit-transform: translate3d(0, -20.3%, 0);
     transform: translate3d(0, -20.3%, 0);
+    opacity: 0;
+    -webkit-transition-duration: 2.6s;
+    transition-duration: 2.6s;
+    -webkit-transition-property: -webkit-transform opacity;
+}
+.aropixel svg.point {
+    height: 166%;
+    width: 100%;
+    position: absolute;
+    -webkit-transform: translate3d(0, -20.3%, 0);
+    transform: translate3d(0, -20.3%, 0);
+    opacity: 0;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    -webkit-transition-property: -webkit-transform opacity;
+}
+.aropixel svg.square {
+    height: 166%;
+    width: 100%;
+    -webkit-transform: translate3d(0, -20.3%, 0);
+    transform: translate3d(0, -20.3%, 0);
+}
+.aropixel--name svg.company, .aropixel--point svg.point {
+    opacity: 1;
 }
 .aropixel--animate .aropixel__path {
     opacity: 1;

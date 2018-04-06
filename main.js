@@ -5,11 +5,11 @@ $(document).ready(function() {
     }, 500);
 
     setTimeout(function() {
-        $('.aropixel-name').addClass('fade');
+        $('.aropixel').addClass('aropixel--name');
     }, 2400);
 
     setTimeout(function() {
-        $('.aropixel-point').addClass('fade');
+        $('.aropixel').addClass('aropixel--point');
     }, 3900);
 
 });
