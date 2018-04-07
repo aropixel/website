@@ -1,4 +1,11 @@
 
+@media screen and (max-width: 991px) {
+
+	.portfolio.cols-6 .portfolio-item {
+	    width: 33.33333334%;
+	}
+}
+  
 @media screen and (max-width: 600px) {
 
 	.aropixel-baseline h1, .aropixel-baseline h2 {
@@ -6,6 +13,10 @@
 	}
 	.aropixel-baseline h1 span, .aropixel-baseline h2 span {
 	    font-size: 14px;
+	}
+
+	.portfolio.cols-6 .portfolio-item {
+	    width: 50%;
 	}
 
 }

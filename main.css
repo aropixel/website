@@ -275,17 +275,21 @@ body {
 
 .activity .wrapper .description {
     width: 500px;
+    max-width: 90%;
     margin: 0 auto;
     margin-top: 50px;
     text-transform: uppercase;
     line-height: 32px;
-    font-size: 24px;
+    font-size: 15px;
     text-align: left;
 }
 .activity .wrapper .description p {
     margin: 0;
 }
 
+#portfolio {
+    background: #fff;
+}
 
 .portfolio {
     margin: 50px 0;
