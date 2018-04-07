@@ -173,6 +173,21 @@ body {
     font-size: 18px;
     margin: 0 4px;
 }
+.sep {
+    font-size: 18px;
+    letter-spacing: 3px;
+    width: 70%;
+    margin: 80px auto;
+}
+.sep span {
+    color: #b14380;
+    font-size: 18px;
+    margin: 0 4px;
+}
+.sep u {
+    color: #aaaaaa;
+    text-decoration: none; 
+}
 
 .arrow {
   position: fixed;
@@ -238,13 +253,12 @@ body {
   }
 }
 .p-section {
-    padding: 90px 0;
+    padding: 80px 0;
 }
 .activities {
     position: relative;
     text-align: center;
-    height: 430px;
-    background: #f8f8f8;
+    background: #fdfdfd;
 }
 .activity {
     text-align: center;
@@ -252,13 +266,20 @@ body {
 .activity .wrapper {
     width: 100%;
 }
+.tag.title {
+    font-size: 28px;
+}
+.tag.title span {
+    font-size: 26px;
+}
+
 .activity .wrapper .description {
-    width: 420px;
+    width: 500px;
     margin: 0 auto;
     margin-top: 50px;
     text-transform: uppercase;
-    line-height: 28px;
-    font-size: 16px;
+    line-height: 32px;
+    font-size: 24px;
     text-align: left;
 }
 .activity .wrapper .description p {
